@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href ="mill.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to WRM Mill</h1>
+        <p>Your trusted source for high-quality TMT-Rebars and Wire rods in coil</p>
+        <h2>Our Products</h2>
+    </header>
+    <section id="products">
+        
+        <div class="product">
+            <img src="TMT-Rebars.jpg" alt="TMT Rebars">
+            <h3>TMT Rebars</h3>
+            <p>Perfect for construction projects</p>
+        </div>
+        <div class="product">
+            <img src="Wirerods.jpg" alt="Wire Rods">
+            <h3>Wire rods in Coil</h3>
+            <p>Perfect for construction projects</p>
+        </div>
+    </section>
+    <section id="order">
+        <h2>Place Your Order</h2>
+        <form>
+            <label for="product-select">Select a Product:</label>
+            <select id="product-select" name="product">
+                <option value="rounds">TMT-Rebars</option>
+                <option value="rebars">Wirerods</option>
+            </select>
+            <label for="quantity">Quantity (in kg):</label>
+            <input type="number" id="quantity" name="quantity" required>
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+</body>
+</html>

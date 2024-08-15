@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href ="mill.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to MMS Mill</h1>
+        <p>Your trusted source for high-quality Channels, Angles, Rounds and Billets</p>
+        <h2>Our Products</h2>
+    </header>
+    <section id="products">
+        
+        <div class="product">
+            <img src="Channels.jpg" alt="Channels">
+            <h3>Channels</h3>
+            <p>Perfect for construction projects</p>
+        </div>
+        <div class="product">
+            <img src="Angles.jpg" alt="Angles">
+            <h3>Angles</h3>
+            <p>Relevant for structural sections</p>
+        </div>
+        <div class="product">
+            <img src="rounds.jpg" alt="Rounds">
+            <h3>Rounds</h3>
+            <p>Available in various sizes and weights</p>
+        </div>
+        <div class="Billets">
+            <img src="Billets.jpg" alt="Billets">
+            <h3>Billets</h3>
+            <p>Perfect for construction projects</p>
+        </div>
+    </section>
+    <section id="order">
+        <h2>Place Your Order</h2>
+        <form>
+            <label for="product-select">Select a Product:</label>
+            <select id="product-select" name="product">
+                <option value="Channels">Channels</option>
+                <option value="Angles">Angles</option>
+                <option value="Rounds">Rounds</option>
+                <option value="Billets">Billets</option>
+            </select>
+            <label for="quantity">Quantity (in kg):</label>
+            <input type="number" id="quantity" name="quantity" required>
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+</body>
+</html>

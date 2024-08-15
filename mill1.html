@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href ="mill.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to LMMM Mill</h1>
+        <h4>Your trusted source for high-quality rounds and rebars</h4>
+        <h2>Our Products</h2>
+    </header>
+    <section id="products">
+        
+        <div class="product">
+            <img src="rounds.jpg" alt="Steel Rounds">
+            <h3>Steel Rounds</h3>
+            <p>Available in various sizes and weights</p>
+        </div>
+        <div class="product">
+            <img src="rebars.jpg" alt="Steel Rebars">
+            <h3>Steel Rebars</h3>
+            <p>Perfect for construction projects</p>
+        </div>
+    </section>
+    <section id="order">
+        <h2>Place Your Order</h2>
+        <form>
+            <label for="product-select">Select a Product:</label>
+            <select id="product-select" name="product">
+                <option value="rounds">Steel Rounds</option>
+                <option value="rebars">Steel Rebars</option>
+            </select>
+            <label for="quantity">Quantity (in kg):</label>
+            <input type="number" id="quantity" name="quantity" required>
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+</body>
+</html>
